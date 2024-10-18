@@ -1,7 +1,7 @@
 .empty-header, .empty-footer {
 height:100px
 }
-.header, .footer {
+.header{
 position: fixed;
 height:100px;
 top: 0;
