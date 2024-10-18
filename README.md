@@ -1,2 +1,2 @@
-# KD_BRU_QualityManuel_LaTeX
-Quality Manuel for Klasmann-Deilmann Brugges (KLA W32) writen in LaTeX
+# KD_BRU_QualityManual_LaTeX
+Quality Manual for Klasmann-Deilmann Brugges (KLA W32) writen in LaTeX
