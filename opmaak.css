@@ -14,14 +14,14 @@
 #page {
 	counter-reset: heading;
 }
-h1:before {
+h2:before {
 	content: counter(heading);
 	counter-increment: heading;
 }
-h1 {
+h2 {
 	counter-reset: subheading;
 }
-h2:before {
+h3:before {
 	content: counter(heading)"."counter(subheading);
 	counter-increment: subheading;
 }
