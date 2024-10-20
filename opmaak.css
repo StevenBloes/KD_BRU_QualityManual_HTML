@@ -11,17 +11,17 @@
   bottom:0;
 }
 
-#page {
+h1 {
 	counter-reset: heading;
 }
 h2:before {
-	content: counter(heading);
+	content: counter(heading)".";
 	counter-increment: heading;
 }
 h2 {
 	counter-reset: subheading;
 }
 h3:before {
-	content: counter(heading)"."counter(subheading);
+	content: counter(heading)"."counter(subheading)".";
 	counter-increment: subheading;
 }
