@@ -1,13 +1,12 @@
+@media screen {
+  body {
+	counter-reset: heading;
+	padding: 0em 5em 5em 3em;
+}
 @media screen and (max-width: 632px) {
   body {
 	counter-reset: heading;
 	padding: 0em;
-	background-color: red;
-}
-@media screen and (min-width: 632px) {
-  body {
-	counter-reset: heading;
-	padding: 1em 5em 5em 3em;
 	background-color: green;
 }
 h1 {
