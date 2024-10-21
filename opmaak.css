@@ -1,12 +1,14 @@
-@media (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   body {
-	  counter-reset: heading;
-	  padding: 0em;
+	counter-reset: heading;
+	padding: 0em;
+	background-color: red;
 }
-@media (min-width: 701px) {
+@media only screen and (min-width: 501px) {
   body {
-		counter-reset: heading;
-		padding: 1em 5em 5em 3em;
+	counter-reset: heading;
+	padding: 1em 5em 5em 3em;
+	background-color: green;
 }
 h1 {
 	margin: 1px;
