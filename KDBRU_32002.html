@@ -3,6 +3,19 @@
     <title>Organigram</title>
     <link rel="stylesheet" type="text/css" href="opmaak.css" />
     <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+	  <style>
+			@media print {
+				svg {
+					width:90%;
+				}
+			}
+
+			@media screen {
+				svg {
+					width:100%;
+				}
+			}
+		</style>
   </head>
   <body>
 	<table style="width:100%;">
@@ -16,7 +29,7 @@
         </td>
       </tr>
     </table> 
-    <img src="img/Organigram.svg" alt="Organigram" width=100%/>
+    <svg src="img/Organigram.svg" alt="Organigram" width=100%/>
     <p></p>
     <table style="width:100%">
       <tr>
