@@ -1,14 +1,6 @@
-@media screen and (min-width: 900px){
-	body {
-	counter-reset: heading;
-	padding: 0em 5em 5em 3em;
-	}
-}
-@media screen and (max-width: 899px){
-	body {
+body {
 	counter-reset: heading;
 	padding: 0em 1em 1em 1em;
-	}
 }
 h1 {
 	margin: 1px;
