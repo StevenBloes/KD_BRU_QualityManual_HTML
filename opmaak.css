@@ -32,6 +32,11 @@ h3 {
 p {
 	font-size: 2em;
 	font-weight: normal;
+	text-align: justify;
+}
+.indented_p {
+	font-size: 2em;
+	font-weight: normal;
 	margin-left: 2em;
 	text-align: justify;
 }
