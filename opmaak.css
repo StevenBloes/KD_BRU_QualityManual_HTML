@@ -50,10 +50,24 @@ th {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
+.fill_in_th {
+	font-size: 1.6em;
+	height:2.2rem;
+	background-color:F0F0F0;
+}
 td {
 	font-size: 1.6em;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
+}
+.fill_in_td {
+	font-size: 1.6em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	height:2.2rem;
+}
+.doubleborderL {
+	border-left: 3px double black;
 }
 .kdlogo {
 	height: 8em;
@@ -61,6 +75,8 @@ td {
 small {
 	color:gray;
 	font-size: 1.2em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 li {
 	font-size: 2em;

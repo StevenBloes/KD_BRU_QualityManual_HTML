@@ -7,7 +7,10 @@
 }
 body {
 	counter-reset: heading;
-	padding: 1em;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 0em;
+	padding-left: 1em;
 }
 h1 {
 	margin: 1px;
@@ -57,10 +60,19 @@ th {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
+.fill_in_th {
+	font-size: 0.8em;
+	height: 1.3rem;
+	background-color:F0F0F0;
+}
 td {
 	font-size: 0.8em;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
+}
+.fill_in_td {
+	font-size: 1.6em;
+	height:2.2rem;
 }
 .kdlogo {
 	height: 5em;
@@ -71,4 +83,6 @@ li {
 small{
 	color:gray;
 	font-size: 0.6em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
