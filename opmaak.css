@@ -44,7 +44,12 @@ table, td, th {
 	border: 1px solid black;
 	border-collapse: collapse;
 }
-
+th {
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
 td {
 	font-size: 1.6em;
 	padding-left: 0.5em;

@@ -39,14 +39,24 @@ h3 {
 p {
 	font-size: 1em;
 	font-weight: normal;
-	padding-left: 2rem;
+	text-align: justify;
+}
+.indented_p {
+	font-size: 1em;
+	font-weight: normal;
+	margin-left: 2em;
 	text-align: justify;
 }
 table, td, th {
 	border: 1px solid black;
 	border-collapse: collapse;
 }
-
+th {
+	font-size: 0.8em;
+	font-weight: bold;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
 td {
 	font-size: 0.8em;
 	padding-left: 0.5em;
