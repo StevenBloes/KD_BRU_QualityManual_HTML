@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+	<head>
+		<title>Reinigingsdocument Loskranen</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="opmaak.css"/>
+		<link rel="stylesheet" type="text/css" href="print.css" media="screen and (max-width:600px)"/>
+		<link rel="stylesheet" type="text/css" href="print.css" media="print"/>
+		<style>
+			li::marker {
+				color:gray;
+			}
+			.inputline {
+				border-bottom:2px dotted gray; 
+				margin: 1em 0.5em 0.1em; 
+				font-size:2.5em;
+			}
+		</style>
+	</head>
+	<body>
+		<table style="width:100%;">
+			<tr>
+				<td style="width:20%; text-align:center;"><img src="img/KD-Logo.jpg" alt="Klasmann-Deilmann Logo" class="kdlogo"></td>
+				<td style="width:60%; text-align:center;"><h1>Reinigingsdocument<br>Loskranen</h1></td>
+				<td style="width:20%; text-align:right;">
+					KDBRU_32017_C<br>
+					Versie: 1.2<br>
+					Geldig: 06-11-2024<br>
+				</td>
+			</tr>
+		</table> 
+		<p style="font-weight:bold; text-align:center;">		
+			BEVESTIGING / CONFIRMATION<br>
+			Reinigingscontrole voor Loskranen
+		</p>
+		<p>
+			Hiermee verklaren wij, dat ons losvoertuig vrij is van granen, zaden, vuil en andersoortige producten die aan de te lossen scheepslading schade zouden kunnen veroorzaken.
+		</p>
+		<table style="width:100%;">
+			<tr>
+				<td style="text-align:center; line-height:2;">
+					Ordernummer en/of Scheepsnaam<br>
+					<div class="inputline"></div>
+					Afkomst Grondstof<br>
+					<div class="inputline"></div>
+					Losmaatschappij<br>
+					<div class="inputline"></div>
+					Identificatie- en/of Serienummer Losbak<br>
+					<div class="inputline"></div>
+				</td>
+			</tr>
+		</table>
+		<p>
+			Bovendien voldoet deze loskraan geheel aan de eisen die Klasmann-Deilmann, met betrekking tot de inzet van transport, heeft gesteld.
+		</p>
+		<table style="width:100%;">
+			<tr>
+				<td style="width:45%; border:none;">
+					De laatst geloste/geladen lading was, c.q.
+				</td>
+				<td style="width:35%; border:none;">
+				 <div class="inputline" style="margin-left:0em;"></div>
+				</td>
+				<td style="width:20%; border:none;">
+					<b><u>RHP:</u></b>
+					<ul style="list-style-type:'O  '; padding-left:0.6em; display:inline;">
+						<li class="li_in_td">
+							ja
+						</li>
+						<li class="li_in_td">
+							neen
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align:top; padding-top:0.75em; border:none;">
+					De volgende reinigingsmaatregelen zijn genomen:<br>
+				</td>
+				<td style="vertical-align:top; padding-top:0.75em; padding-left:0em; padding-bottom:0.5em; border:none;">
+					<ul style="list-style-type:'O  '; margin:0em;">
+						<li class="li_in_td">
+							Borstel
+						</li>
+						<li class="li_in_td">
+							Water
+						</li>
+						<li class="li_in_td">
+							Stoom
+						</li>
+						<li class="li_in_td">
+							Andere
+						</li>
+					</ul>
+				</td>
+				<td style="border:none;">
+				</td>
+			</tr>
+		</table>
+		<table style="width:100%; border:none;">
+			<tr>
+				<td style="width:40%; border:none; padding-bottom:0em; padding-top:5em;">
+					<div class="inputline" style="margin-bottom:0em;"></div>
+				</td>
+				<td style="width:20%; border:none;">
+				</td>
+				<td style="width:40%; border:none; padding-bottom:0em; padding-top:5em;">
+					<div class="inputline" style="margin-bottom:0em;"></div>
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align:top; border:none;">
+					<small style="font-size:0.8em; padding-left:2em;">
+						Datum
+					</small>
+				</td>
+				<td style="border:none;">
+				</td>
+				<td style="vertical-align:top; border:none; padding-left:2em; padding-top:0em;">
+					<small style="font-size:0.8em;">
+						Handtekening kraanoperator
+					</small>
+				</td>
+			</tr>
+		</table>
+		<p class="no-print"><br></p>
+		<table style="width:100%" class="no-print">
+			<tr>
+				<td style="width:25%">opgesteld:</td>
+				<td style="width:25%">gecontroleerd:</td>
+				<td style="width:25%">vrijgave:</td>
+				<td style="width:25%">versie: 1.2</td>
+			</tr>
+			<tr>
+				<td>S. Bloes</td>
+				<td>D. De Geest</td>
+				<td>D. De Geest</td>
+				<td>Datum: 06-11-2025</td>
+			</tr>
+		</table>
+		<br>
+		<div class="no-print">
+			<table style="width:100%; border:none;">
+				<tr>
+					<td style="width:33%; border:none; text-align:left;"><a href="KDBRU_32017_B.html">&#11164; KDBRU_32017_B</a></</td>
+					<td style="width:34%; border:none; text-align:center;"><a href="index.html">Inhoudsopgave</a></td>
+					<td style="width:33%; border:none; text-align:right;"><a href="template.html">template &#11166;</a></td>
+				</tr>
+			</table>
+			<br>
+		</div>
+		<div style="text-align:center;" class="no-print">
+			<small>Dit document is het eigendom van Klasmann-Deilmann België en mag niet worden vermenigvuldigd of aan derden ter inzage worden gegeven 
+				zonder schriftelijke toestemming van de bedrijfsleiding.
+			</small>
+		</div>
+	</body>
+</html>
