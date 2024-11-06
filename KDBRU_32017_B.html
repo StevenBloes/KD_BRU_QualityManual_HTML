@@ -8,7 +8,14 @@
 		<link rel="stylesheet" type="text/css" href="print.css" media="screen and (max-width:600px)"/>
 		<link rel="stylesheet" type="text/css" href="print.css" media="print"/>
 		<style>
-			.inputline {border-bottom:2px dotted gray; margin: 1em 0.5em 0.1em; font-size:2.5em;}
+			li::marker {
+				color:gray;
+			}
+			.inputline {
+				border-bottom:2px dotted gray; 
+				margin: 1em 0.5em 0.1em; 
+				font-size:2.5em;
+			}
 		</style>
 	</head>
 	<body>
@@ -61,51 +68,81 @@
 		</p>
 		<table style="width:100%;">
 			<tr>
-				<td style="width:50%">
+				<td style="width:45%; border:none;">
 					De laatst geladen lading (bulk) was, c.q.<br>
 					Le dernier chargement (en vrac), était, c.q.
 				</td>
-				<td style="width:35%">
+				<td style="width:35%; border:none;">
+				 <div class="inputline" style="margin-left:0em;"></div>
 				</td>
-				<td style="width:15%">
+				<td style="width:20%; border:none;">
 					<b><u>RHP:</u></b>
-					<ul style="list-style-type:square; ">
-						<li>
+					<ul style="list-style-type:'O  '; padding-left:0.6em; display:inline;">
+						<li class="li_in_td">
 							ja / oui
 						</li>
-						<li>
+						<li class="li_in_td">
 							neen / non
 						</li>
 					</ul>
 				</td>
 			</tr>
 			<tr>
-				<td>
+				<td style="vertical-align:top; padding-top:0.75em; border:none;">
 					De volgende reinigingsmaatregelen zijn genomen:<br>
 					Les mesures de nettoyage faites:
 				</td>
-				<td>
-					<ul style="list-style-type:square;">
-						<li>
+				<td style="vertical-align:top; padding-top:0.75em; padding-left:0em; padding-bottom:0.5em; border:none;">
+					<ul style="list-style-type:'O  '; margin:0em;">
+						<li class="li_in_td">
 							Borstel / Balai
 						</li>
-						<li>
+						<li class="li_in_td">
 							Water / Eau
 						</li>
-						<li>
+						<li class="li_in_td">
 							Stoom / Vapeur
 						</li>
-						<li>
+						<li class="li_in_td">
 							Andere / Autre
+						</li>
+					</ul>
+				</td>
+				<td style="border:none;">
+					<ul style="list-style-type:'O  '; padding-left:0.6em; display:inline;">
+						<li class="li_in_td">
+							Extra controle
 						</li>
 					</ul>
 				</td>
 			</tr>
 		</table>
-			<small>
-				Datum / Date<br>
-				Handtekening Chauffeur / Signature Chauffeur
-			</small>
+		<table style="width:100%; border:none;">
+			<tr>
+				<td style="width:40%; border:none; padding-bottom:0em; padding-top:5em;">
+					<div class="inputline" style="margin-bottom:0em;"></div>
+				</td>
+				<td style="width:20%; border:none;">
+				</td>
+				<td style="width:40%; border:none; padding-bottom:0em; padding-top:5em;">
+					<div class="inputline" style="margin-bottom:0em;"></div>
+				</td>
+			</tr>
+			<tr>
+				<td style="vertical-align:top; border:none;">
+					<small style="font-size:0.8em; padding-left:2em;">
+						Datum / Date
+					</small>
+				</td>
+				<td style="border:none;">
+				</td>
+				<td style="vertical-align:top; border:none; padding-left:2em; padding-top:0em;">
+					<small style="font-size:0.8em;">
+						Handtekening Chauffeur / Signature Chauffeur
+					</small>
+				</td>
+			</tr>
+		</table>
 		<table style="width:100%" class="no-print">
 			<tr>
 				<td style="width:25%">opgesteld:</td>

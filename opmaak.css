@@ -81,3 +81,6 @@ small {
 li {
 	font-size: 2em;
 }
+.li_in_td {
+	font-size: 1em;
+}
