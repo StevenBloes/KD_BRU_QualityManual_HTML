@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="400" 
+	height="500" 
+	viewBox="0 0 400 500">
+	
+	<style>
+	.greenText {
+      font: bold 8px sans-serif;
+	  fill: green;
+    }
+	</style>
+	<rect x="1" y="1" width="398" height="498" fill="#fafafa" stroke="black" stroke-width="1"/>
+	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
+		<tspan dy="0em" x="95">Klasmann-Deilmann</tspan>
+		<tspan dy="1em" x="95">Brugge</tspan>
+	</text>
+	
+	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
+		<tspan dy="0em" x="95">Specificatie</tspan>
+		<tspan dy="1em" x="95">Kalkmeststof</tspan>
+	</text>
+	
+	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
+		<tspan dy="0em" x="95">Aflevering kalk</tspan>
+		<tspan dy="1em" x="95">en staal</tspan>
+	</text>
+	
+	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
+		<tspan dy="0em" x="95">Belmeco SA</tspan>
+		<tspan dy="1em" x="95">Pomagro NV</tspan>
+	</text>
+	
+	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
+		<tspan dy="0em" x="95">Specificatie</tspan>
+		<tspan dy="1em" x="95">Kalkmeststof</tspan>
+	</text>
+	
+	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
+		<tspan dy="0em" x="95">RHP A product</tspan>
+		<tspan dy="1em" x="95">Fijnheid: 90% 0.16mm</tspan>
+		<tspan dy="1em" x="95">Neutraliserende waarde: 59</tspan>
+		<tspan dy="1em" x="95">Samenstelling: 12% MgO</tspan>
+	</text>
+</svg>
