@@ -1,44 +1,159 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-	width="400" 
-	height="500" 
-	viewBox="0 0 400 500">
+	width="450" 
+	height="450" 
+	viewBox="0 0 450 450">
 	
 	<style>
-	.greenText {
-      font: bold 8px sans-serif;
-	  fill: green;
-    }
+		.boxedText {
+			font: bold 8px sans-serif;
+			fill: black;
+		}
+		.boxedTextColored {
+			font: bold 8px sans-serif;
+			fill: green;
+		}
+		.lineText {
+			font: bold 8px sans-serif;
+			fill: grey;
+		}
+		.textBox {
+			stroke: #5F5F5F;
+			stroke-width: 1;
+			fill: #fafafa;
+		}
 	</style>
-	<rect x="1" y="1" width="398" height="498" fill="#fafafa" stroke="black" stroke-width="1"/>
-	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
-		<tspan dy="0em" x="95">Klasmann-Deilmann</tspan>
-		<tspan dy="1em" x="95">Brugge</tspan>
+	
+	<!-- Lines -->
+
+	<line x1="25" x2="300" y1="53" y2="53" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="25" x2="100" y1="150" y2="150" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="25" x2="100" y1="157" y2="157" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="100" x2="300" y1="153" y2="153" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="100" x2="300" y1="253" y2="253" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="300" x2="300" y1="253" y2="403" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="300" x2="300" y1="50" y2="150" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="25" x2="25" y1="53" y2="150" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="25" x2="25" y1="157" y2="403" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="25" x2="400" y1="403" y2="403" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="400" x2="400" y1="10" y2="403" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="100" x2="400" y1="10" y2="10" stroke="black" stroke-width="1"/><!--KD-->
+	<line x1="100" x2="100" y1="10" y2="403" stroke="black" stroke-width="1"/><!--KD-->
+	
+	<!-- Boxes -->
+	
+	<rect x="50" y="37" width="100" height="2em" class="textBox"/><!--KD-->
+	<rect x="250" y="37" width="100" height="2em" class="textBox"/><!--Specs-->
+	
+
+	<rect x="50" y="137" width="100" height="2em" class="textBox"/><!--Belmeco-->
+	<rect x="240" y="130" width="120" height="3em" class="textBox"/><!--Spec Det-->
+	
+	<rect x="250" y="237" width="100" height="2em" class="textBox"/><!--Desimpel-->
+	
+	<rect x="240" y="303" width="120" height="3em" class="textBox"/><!--Desimpel verant.-->
+	
+	<rect x="50" y="387" width="100" height="2em" class="textBox"/><!--Lhoist-->
+	<rect x="240" y="387" width="120" height="2em" class="textBox"/><!--Laden-->
+	
+	<!-- Triangles -->
+	
+	<polygon points="100,37 97,32 103,32" fill="black" stroke="black" stroke-width="0.5"/>
+	<polygon points="100,137 97,132 103,132" fill="black" stroke="black" stroke-width="0.5"/>
+	<polygon points="100,387 97,382 103,382" fill="black" stroke="black" stroke-width="0.5"/>
+	<polygon points="300,303 297,298 303,298" fill="black" stroke="black" stroke-width="0.5"/>
+	<polygon points="300,387 297,382 303,382" fill="black" stroke="black" stroke-width="0.5"/>
+	
+	<polygon points="50,53 45,50 45,56" fill="black" stroke="black" stroke-width="0.5"/>
+	<polygon points="250,53 245,50 245,56" fill="black" stroke="black" stroke-width="0.5"/>
+	<polygon points="50,157 45,154 45,160" fill="black" stroke="black" stroke-width="0.5"/>
+	<polygon points="250,253 245,250 245,256" fill="black" stroke="black" stroke-width="0.5"/>
+	
+	<polygon points="300,69 297,74 303,74" fill="black" stroke="black" stroke-width="0.5"/>
+	
+	<polygon points="150,153 155,150 155,156" fill="black" stroke="black" stroke-width="0.5"/>
+	<polygon points="150,403 155,400 155,406" fill="black" stroke="black" stroke-width="0.5"/>
+	
+	<!-- Text in boxes -->
+	
+	<text y="50" class="boxedTextColored" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="100" dy="0em">Klasmann-Deilmann</tspan>
+		<tspan x="100" dy="1em">Brugge</tspan>
 	</text>
 	
-	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
-		<tspan dy="0em" x="95">Specificatie</tspan>
-		<tspan dy="1em" x="95">Kalkmeststof</tspan>
+	<text y="50" class="boxedText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="300" dy="0em">Specificatie</tspan>
+		<tspan x="300" dy="1em">Kalkmeststof</tspan>
 	</text>
 	
-	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
-		<tspan dy="0em" x="95">Aflevering kalk</tspan>
-		<tspan dy="1em" x="95">en staal</tspan>
+	<text y="150" class="boxedTextColored" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="100" dy="0em">Belmeco SA</tspan>
+		<tspan x="100" dy="1em">Pomagro NV</tspan>
 	</text>
 	
-	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
-		<tspan dy="0em" x="95">Belmeco SA</tspan>
-		<tspan dy="1em" x="95">Pomagro NV</tspan>
+	<text y="150" class="boxedText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="300" dy="-1em">RHP A product</tspan>
+		<tspan x="300" dy="1em">Fijnheid: 90% 0.16mm</tspan>
+		<tspan x="300" dy="1em">Neutraliserende waarde: 59</tspan>
+		<tspan x="300" dy="1em">Samenstelling: 12% MgO</tspan>
 	</text>
 	
-	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
-		<tspan dy="0em" x="95">Specificatie</tspan>
-		<tspan dy="1em" x="95">Kalkmeststof</tspan>
+	<text y="250" class="boxedTextColored" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="300" dy="0em">Desimpel</tspan>
+		<tspan x="300" dy="1em">Transport bvba</tspan>
 	</text>
 	
-	<text x="95" y="70" dy="70" class="greenText" dominant-baseline="middle" text-anchor="middle">
-		<tspan dy="0em" x="95">RHP A product</tspan>
-		<tspan dy="1em" x="95">Fijnheid: 90% 0.16mm</tspan>
-		<tspan dy="1em" x="95">Neutraliserende waarde: 59</tspan>
-		<tspan dy="1em" x="95">Samenstelling: 12% MgO</tspan>
+	<text y="300" class="boxedText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="300" dy="1.5em">Desimpel organiseert</tspan>
+		<tspan x="300" dy="1em">reiniging van de silowagen</tspan>
+		<tspan x="300" dy="1em">volgens RHP module 260</tspan>
+		<tspan x="300" dy="1em">Dient traceerbaar te zijn</tspan>
+		<tspan x="300" dy="1em">op de afleverbon</tspan>
 	</text>
+	
+	<text y="400" class="boxedText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="300" dy="0em">Laden bij L'Hoist</tspan>
+		<tspan x="300" dy="1em">staalname van elke lading</tspan>
+	</text>
+	
+	<text y="400" class="boxedTextColored" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="100" dy="0em">Lhoist Dolomies de</tspan>
+		<tspan x="100" dy="1em">Marche-Les-Dames</tspan>
+	</text>
+	
+	<!-- Text on lines - whitening lines-->
+	
+	<line x1="25" x2="25" y1="95" y2="105" stroke="white" stroke-width="3"/>
+	<line x1="100" x2="100" y1="95" y2="105" stroke="white" stroke-width="3"/>
+	<line x1="400" x2="400" y1="90" y2="110" stroke="white" stroke-width="3"/>
+	<line x1="25" x2="25" y1="246" y2="258" stroke="white" stroke-width="3"/>
+	<line x1="135" x2="216" y1="253" y2="253" stroke="white" stroke-width="3"/>
+	<line x1="100" x2="100" y1="295" y2="305" stroke="white" stroke-width="3"/>
+	
+	<!-- Text on lines - text-->
+	
+	<text y="100" class="lineText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="25" dy="0em">Rekening</tspan>
+	</text>
+	
+	<text y="100" class="lineText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="100" dy="0em">Bestelling Kalk</tspan>
+	</text>
+	
+	<text y="100" class="lineText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="400" dy="-0.5em">Aflevering Kalk</tspan>
+		<tspan x="400" dy="1em">en staal</tspan>
+	</text>
+	
+	<text y="250" class="lineText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="25" dy="0.35em">Rekening</tspan>
+	</text>
+	
+	<text y="250" class="lineText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="175" dy="0.35em">Bestelling Transport</tspan>
+	</text>
+	
+	<text y="300" class="lineText" dominant-baseline="middle" text-anchor="middle">
+		<tspan x="100" dy="0em">Bestelling Kalk</tspan>
+	</text>
+	
 </svg>
