@@ -91,10 +91,10 @@
 	</text>
 	
 	<text y="150" class="boxedText" dominant-baseline="middle" text-anchor="middle">
-		<tspan x="300" dy="-1em">RHP A product</tspan>
-		<tspan x="300" dy="1em">Fijnheid: 90% 0.16mm</tspan>
-		<tspan x="300" dy="1em">Neutraliserende waarde: 59</tspan>
-		<tspan x="300" dy="1em">Samenstelling: 12% MgO</tspan>
+		<tspan x="300" dy="-1em">RHP A product;</tspan>
+		<tspan x="300" dy="1em">Fijnheid: 90% 80µm;</tspan>
+		<tspan x="300" dy="1em">Neutraliserende waarde: 59;</tspan>
+		<tspan x="300" dy="1em">Samenstelling: 12% MgO;</tspan>
 	</text>
 	
 	<text y="250" class="boxedTextColored" dominant-baseline="middle" text-anchor="middle">
@@ -105,14 +105,14 @@
 	<text y="300" class="boxedText" dominant-baseline="middle" text-anchor="middle">
 		<tspan x="300" dy="1.5em">Desimpel organiseert</tspan>
 		<tspan x="300" dy="1em">reiniging van de silowagen</tspan>
-		<tspan x="300" dy="1em">volgens RHP module 260</tspan>
+		<tspan x="300" dy="1em">volgens RHP module 260.</tspan>
 		<tspan x="300" dy="1em">Dient traceerbaar te zijn</tspan>
-		<tspan x="300" dy="1em">op de afleverbon</tspan>
+		<tspan x="300" dy="1em">op de afleverbon.</tspan>
 	</text>
 	
 	<text y="400" class="boxedText" dominant-baseline="middle" text-anchor="middle">
-		<tspan x="300" dy="0em">Laden bij L'Hoist</tspan>
-		<tspan x="300" dy="1em">staalname van elke lading</tspan>
+		<tspan x="300" dy="0em">Laden bij L'Hoist,</tspan>
+		<tspan x="300" dy="1em">staalname van elke lading.</tspan>
 	</text>
 	
 	<text y="400" class="boxedTextColored" dominant-baseline="middle" text-anchor="middle">
