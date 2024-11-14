@@ -1,3 +1,19 @@
+@media screen
+{
+    .no-print{
+	}
+    .no-screen{
+		display:none;
+	}
+}
+@media print
+{
+    .no-print{
+		display:none !important;
+	}
+    .no-screen{
+	}
+}
 body {
 	counter-reset: heading;
 	padding: 1em 5em 5em 3em;
@@ -66,6 +82,12 @@ td {
 	padding-right: 0.5em;
 	height:2.2rem;
 }
+.rotated_td{
+	vertical-align: bottom;
+	width: 1em;
+	height: 5em;
+	writing-mode: sideways-lr;
+}
 .doubleborderL {
 	border-left: 3px double black;
 }
@@ -83,4 +105,7 @@ li {
 }
 .li_in_td {
 	font-size: 1em;
+}
+.page_spacer {
+	height: 0em;
 }

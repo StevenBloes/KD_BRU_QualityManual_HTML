@@ -1,9 +1,18 @@
+@media screen
+{
+    .no-print{
+	}
+    .no-screen{
+		display:none;
+	}
+}
 @media print
-{    
-    .no-print, .no-print *
-    {
-        display: none !important;
-    }
+{
+    .no-print{
+		display:none !important;
+	}
+    .no-screen{
+	}
 }
 body {
 	counter-reset: heading;
@@ -75,6 +84,12 @@ td {
 	font-size: 1.6em;
 	height:1.9rem;
 }
+.rotated_td{
+	vertical-align: bottom;
+	width: 1em;
+	height: 5em;
+	writing-mode: sideways-lr;
+}
 .kdlogo {
 	height: 5em;
 }
@@ -86,4 +101,7 @@ small{
 	font-size: 0.6em;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+}
+.page_spacer {
+	height: 1em;
 }
