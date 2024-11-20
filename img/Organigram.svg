@@ -4,14 +4,22 @@
 	viewBox="0 0 545 305">
 	
 	<style>
-    .greenText {
-      font: bold 8px sans-serif;
-	  fill: green;
-    }
-	.greenTextSmall {
-      font: bold 7px sans-serif;
-	  fill: green;
-    }
+		.greenText {
+			font: bold 8px sans-serif;
+			fill: green;
+		}
+		.blueText {
+			font: bold 8px sans-serif;
+			fill: blue;
+		}
+		.greenTextSmall {
+			font: bold 7px sans-serif;
+			fill: green;
+		}
+		.greenTextSmallest {
+			font: bold 5px sans-serif;
+			fill: green;
+		}
 	</style>
 
 	<!-- Management -->
@@ -42,7 +50,8 @@
 	<text x="45" y="170" class="greenText" dominant-baseline="middle" text-anchor="middle">Peter Portier</text>
 	
 	<rect x="5" y="195" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="45" y="210" class="greenText" dominant-baseline="middle" text-anchor="middle">Niels Martinsen</text>
+	<text x="45" y="205" class="blueText" dominant-baseline="middle" text-anchor="middle">Openstaande</text>
+	<text x="45" y="215" class="blueText" dominant-baseline="middle" text-anchor="middle">vacature</text>
 	
 	<rect x="5" y="235" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
 	<text x="45" y="245" class="greenText" dominant-baseline="middle" text-anchor="middle">Alain Braecke</text>
@@ -54,7 +63,10 @@
 	<line x1="190" x2="220" y1="165" y2="165" stroke="black" stroke-width="2"/>
 	<line x1="190" x2="220" y1="205" y2="205" stroke="black" stroke-width="2"/>
 	<line x1="190" x2="220" y1="245" y2="245" stroke="black" stroke-width="2"/>
-	<line x1="190" x2="220" y1="285" y2="285" stroke="black" stroke-width="2"/>
+	<line x1="190" x2="206" y1="285" y2="285" stroke="black" stroke-width="2"/>
+	<!-- lijn naar extra box seizoenswerker
+	<line x1="205" x2="220" y1="285" y2="285" stroke="black" stroke-width="2"/>
+	-->
 	<line x1="205" x2="296" y1="100" y2="100" stroke="black" stroke-width="2"/>
 	<line x1="295" x2="295" y1="99" y2="120" stroke="black" stroke-width="2"/>
 	
@@ -93,10 +105,11 @@
 	<rect x="215" y="230" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
 	<text x="255" y="240" class="greenText" dominant-baseline="middle" text-anchor="middle">Marc Vosseart</text>
 	<text x="255" y="250" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
-	
+	<!-- extra veld voor seizoenswerker
 	<rect x="215" y="270" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
 	<text x="255" y="280" class="greenText" dominant-baseline="middle" text-anchor="middle">Seasonal interim</text>
 	<text x="255" y="290" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
+	-->
 
 	
 	<!-- Quality -->
@@ -136,6 +149,6 @@
 	<text x="500" y="170" class="greenText" dominant-baseline="middle" text-anchor="middle">Bart Claessens</text>
 	
 	<rect x="460" y="195" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="500" y="210" class="greenText" dominant-baseline="middle" text-anchor="middle">Jan Vanoverschelde</text>
-	
+	<text x="500" y="206" class="greenText" dominant-baseline="middle" text-anchor="middle">Jan Vanoverschelde</text>
+	<text x="500" y="215" class="greenTextSmallest" dominant-baseline="middle" text-anchor="middle">(Productmanager GrowBags)</text>
 </svg>
