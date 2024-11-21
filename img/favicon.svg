@@ -7,9 +7,9 @@
 	<rect x="0" y="2" width="29" height="74" fill="#4ea13f" stroke="#4ea13f" stroke-width="1"/>
 	
 	<!--Top leaf-->
-	<path d="M 28 39 C 27 0, 52 1, 74 0 C 72 47, 36 38, 28 39" stroke="#4ea13f" fill="#4ea13f"/>
+	<path d="M 28 39 C 25 5, 55 2, 74 0 C 72 48, 34 38, 28 39" stroke="#4ea13f" fill="#4ea13f"/>
 	<!--Bottom leaf-->
-	<path d="M 28 39 C 27 78, 52 77, 74 78 C 72 31, 36 40, 28 39" stroke="#4ea13f" fill="#4ea13f"/>
+	<path d="M 28 39 C 25 72, 55 76, 74 78 C 72 30, 34 40, 28 39" stroke="#4ea13f" fill="#4ea13f"/>
 	
 	
 	<!--Reference points-->
