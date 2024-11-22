@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="1000" 
+	height="750" 
+	viewBox="0 0 1000 750">
+	
+	<style>
+		.boxedText {
+			font: bold 8px sans-serif;
+			fill: black;
+		}
+		.boxedTextColored {
+			font: bold 8px sans-serif;
+			fill: green;
+		}
+		.lineText {
+			font: bold 8px sans-serif;
+			fill: grey;
+		}
+		.textBox {
+			stroke: #5F5F5F;
+			stroke-width: 1;
+			fill: #fafafa;
+		}
+	</style>
+	
+	
+	<rect x="20" y="20" width="300" height="200"/>
+</svg>

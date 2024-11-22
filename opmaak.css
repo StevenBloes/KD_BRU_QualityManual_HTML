@@ -92,7 +92,8 @@ td {
 	border-left: 3px double black;
 }
 .kdlogo {
-	height: 8em;
+	height: 5em;
+	padding-top:0.2em;
 }
 small {
 	color:gray;
