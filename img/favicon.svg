@@ -1,27 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-	width="78" 
-	height="78" 
-	viewBox="0 0 78 78">
-	
+	width="780" 
+	height="780" 
+	viewBox="0 0 780 781">
+     <!--Patch box-->
+    <rect x="275" y="380" width="40" height="20" fill="#4ea13f" stroke="#4ea13f" stroke-width="1"/>
 	<!--Left box-->
-	<rect x="0" y="2" width="29" height="74" fill="#4ea13f" stroke="#4ea13f" stroke-width="1"/>
-	
+	<rect x="0" y="20" width="290" height="740" fill="#4ea13f" stroke="#4ea13f" stroke-width="1"/>
 	<!--Top leaf-->
-	<path d="M 28 39 C 25 5, 55 2, 74 0 C 72 48, 34 38, 28 39" stroke="#4ea13f" fill="#4ea13f"/>
+	<path d="M 280 390 C 250 50, 551 19, 740 0 C 720 480, 340 380, 280 390" stroke="#4ea13f" fill="#4ea13f"/>
 	<!--Bottom leaf-->
-	<path d="M 28 39 C 25 72, 55 76, 74 78 C 72 30, 34 40, 28 39" stroke="#4ea13f" fill="#4ea13f"/>
-	
-	
-	<!--Reference points-->
-	<!--
-	<circle cx="29" cy="19" r="1" fill="black"/>
-	<circle cx="29" cy="55" r="1" fill="black"/>
-	<circle cx="46" cy="37" r="1" fill="black"/>
-	<circle cx="74" cy="0" r="1" fill="black"/>
-	<circle cx="74" cy="74" r="1" fill="black"/>
-	<circle cx="70" cy="19" r="1" fill="black"/>
-	<circle cx="70" cy="55" r="1" fill="black"/>
-	<circle cx="46" cy="3" r="1" fill="black"/>
-	<circle cx="46" cy="71" r="1" fill="black"/>
-	-->
+	<path d="M 280 390 C 250 720, 551 761, 740 780 C 720 300, 340 400, 280 390" stroke="#4ea13f" fill="#4ea13f"/>
 </svg>
