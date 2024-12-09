@@ -103,7 +103,7 @@
 	<text x="255" y="210" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
 	
 	<rect x="215" y="230" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="255" y="240" class="greenText" dominant-baseline="middle" text-anchor="middle">Marc Vosseart</text>
+	<text x="255" y="240" class="greenText" dominant-baseline="middle" text-anchor="middle">Marc Vossaert</text>
 	<text x="255" y="250" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
 	<!-- extra veld voor seizoenswerker
 	<rect x="215" y="270" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
