@@ -50,8 +50,8 @@
 	<text x="45" y="170" class="greenText" dominant-baseline="middle" text-anchor="middle">Peter Portier</text>
 	
 	<rect x="5" y="195" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="45" y="205" class="blueText" dominant-baseline="middle" text-anchor="middle">Openstaande</text>
-	<text x="45" y="215" class="blueText" dominant-baseline="middle" text-anchor="middle">vacature</text>
+	<text x="45" y="205" class="greenText" dominant-baseline="middle" text-anchor="middle">Barbara Wille</text>
+	<text x="45" y="215" class="blueText" dominant-baseline="middle" text-anchor="middle">Interim</text>
 	
 	<rect x="5" y="235" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
 	<text x="45" y="245" class="greenText" dominant-baseline="middle" text-anchor="middle">Alain Braecke</text>
