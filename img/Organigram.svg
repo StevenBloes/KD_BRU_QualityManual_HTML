@@ -12,6 +12,10 @@
 			font: bold 8px sans-serif;
 			fill: blue;
 		}
+		.blueTextSmall {
+			font: bold 7px sans-serif;
+			fill: blue;
+		}
 		.greenTextSmall {
 			font: bold 7px sans-serif;
 			fill: green;
@@ -51,7 +55,7 @@
 	
 	<rect x="5" y="195" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
 	<text x="45" y="205" class="greenText" dominant-baseline="middle" text-anchor="middle">Barbara Wille</text>
-	<text x="45" y="215" class="blueText" dominant-baseline="middle" text-anchor="middle">Interim</text>
+	<text x="45" y="215" class="blueTextSmall" dominant-baseline="middle" text-anchor="middle">(Interim)</text>
 	
 	<rect x="5" y="235" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
 	<text x="45" y="245" class="greenText" dominant-baseline="middle" text-anchor="middle">Alain Braecke</text>
@@ -64,11 +68,9 @@
 	<line x1="190" x2="220" y1="205" y2="205" stroke="black" stroke-width="2"/>
 	<line x1="190" x2="220" y1="245" y2="245" stroke="black" stroke-width="2"/>
 	<line x1="190" x2="206" y1="285" y2="285" stroke="black" stroke-width="2"/>
-	<!-- lijn naar extra box seizoenswerker
+	<!-- lijn naar extra box seizoenswerker -->
 	<line x1="205" x2="220" y1="285" y2="285" stroke="black" stroke-width="2"/>
-	-->
-	<line x1="205" x2="296" y1="100" y2="100" stroke="black" stroke-width="2"/>
-	<line x1="295" x2="295" y1="99" y2="120" stroke="black" stroke-width="2"/>
+	<!-- extra veld voor seizoenswerker -->
 	
 	<rect x="165" y="60" width="80" height="30" fill="#eaeaea" stroke="black" stroke-width="1"/>
 	<text x="205" y="70" class="greenText" dominant-baseline="middle" text-anchor="middle">Production</text>
@@ -83,53 +85,46 @@
 	<text x="155" y="170" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Operator)</text>
 	
 	<rect x="115" y="190" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="155" y="200" class="greenText" dominant-baseline="middle" text-anchor="middle">Manuel D'Haese</text>
-	<text x="155" y="210" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
+	<text x="155" y="200" class="greenText" dominant-baseline="middle" text-anchor="middle">Johan Verhelst</text>
+	<text x="155" y="210" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Onderhoud)</text>
 	
 	<rect x="115" y="230" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="155" y="240" class="greenText" dominant-baseline="middle" text-anchor="middle">Michael Dubus</text>
+	<text x="155" y="240" class="greenText" dominant-baseline="middle" text-anchor="middle">Marc Vossaert</text>
 	<text x="155" y="250" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
 	
 	<rect x="115" y="270" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-    <text x="155" y="280" class="greenText" dominant-baseline="middle" text-anchor="middle">Elias Vande Ryse</text>
-	<text x="155" y="290" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(All Round)</text>
+    <text x="155" y="280" class="greenText" dominant-baseline="middle" text-anchor="middle">Wesley Bottelberghe</text>
+	<text x="155" y="290" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
 	
 	<rect x="215" y="150" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="255" y="160" class="greenText" dominant-baseline="middle" text-anchor="middle">Johan Verhelst</text>
-	<text x="255" y="170" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Onderhoud)</text>
+	<text x="255" y="160" class="greenText" dominant-baseline="middle" text-anchor="middle">Sebastiaan</text>
+	<text x="255" y="170" class="blueTextSmall" dominant-baseline="middle" text-anchor="middle">(Interim Operator)</text>
 	
 	<rect x="215" y="190" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="255" y="200" class="greenText" dominant-baseline="middle" text-anchor="middle">Wesley Bottelberghe</text>
+	<text x="255" y="200" class="greenText" dominant-baseline="middle" text-anchor="middle">Manuel D'Haese</text>
 	<text x="255" y="210" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
 	
 	<rect x="215" y="230" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="255" y="240" class="greenText" dominant-baseline="middle" text-anchor="middle">Marc Vossaert</text>
+	<text x="255" y="240" class="greenText" dominant-baseline="middle" text-anchor="middle">Michael Dubus</text>
 	<text x="255" y="250" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
-	<!-- extra veld voor seizoenswerker
+	<!-- extra veld voor seizoenswerker-->
 	<rect x="215" y="270" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="255" y="280" class="greenText" dominant-baseline="middle" text-anchor="middle">Seasonal interim</text>
-	<text x="255" y="290" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Shovel)</text>
-	-->
+	<text x="255" y="280" class="greenText" dominant-baseline="middle" text-anchor="middle">Elias Vande Ryse</text>
+	<text x="255" y="290" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(All Round)</text>
+	<!-- extra veld voor seizoenswerker-->
 
 	
 	<!-- Quality -->
 	<line x1="340" x2="340" y1="50" y2="100" stroke="black" stroke-width="2"/>
-	<line x1="298" x2="340" y1="100" y2="100" stroke="gray" stroke-dasharray="2,2" stroke-width="2"/>
-	<line x1="297" x2="297" y1="100" y2="120" stroke="gray" stroke-dasharray="2,2" stroke-width="2"/>
-	<line x1="340" x2="386" y1="100" y2="100" stroke="black" stroke-width="2"/>
-	<line x1="385" x2="385" y1="100" y2="120" stroke="black" stroke-width="2"/>
+	<line x1="340" x2="340" y1="100" y2="120" stroke="black" stroke-width="2"/>
 
 	<rect x="300" y="60" width="80" height="30" fill="#eaeaea" stroke="black" stroke-width="1"/>
 	<text x="340" y="70" class="greenText" dominant-baseline="middle" text-anchor="middle">Quality</text>
 	<text x="340" y="80" class="greenText" dominant-baseline="middle" text-anchor="middle">KD_BRU</text>
 
-	<rect x="255" y="110" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="295" y="120" class="greenText" dominant-baseline="middle" text-anchor="middle">Hendrik de Meyer</text>
-	<text x="295" y="130" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(80/20 Operator/Lab)</text>
-	
-	<rect x="345" y="110" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
-	<text x="385" y="120" class="greenText" dominant-baseline="middle" text-anchor="middle">Steven Bloes</text>
-	<text x="385" y="130" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Lab verantwoordelijke)</text>
+	<rect x="300" y="110" width="80" height="30" fill="white" stroke="black" stroke-width="1"/>
+	<text x="340" y="120" class="greenText" dominant-baseline="middle" text-anchor="middle">Steven Bloes</text>
+	<text x="340" y="130" class="greenTextSmall" dominant-baseline="middle" text-anchor="middle">(Lab verantwoordelijke)</text>
 	
 	
 	<!-- Sales -->
